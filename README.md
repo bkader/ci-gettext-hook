@@ -1,7 +1,7 @@
-# CI-Gettext-Hook ([Demo](http://demo.bkader.com/ci-gettext/))
+# CI-Gettext-Hook ([Demo](http://demo.ianhub.com/ci-gettext/))
 This hook enables the use of __php_gettext__ for [CodeIgniter](https://www.codeigniter.com/) framework.
 ## How to use?
-Unline my former [CI-Gettext Library](https://github.com/bkader/ci-gettext) that requires a little bit of configuration and alteration to CodeIgniter core files, this hooks does not really alter a thing and needs a meaningless configuration.
+Unlike my former [CI-Gettext Library](https://github.com/bkader/ci-gettext) that requires a little bit of configuration and alteration to CodeIgniter core files, this hooks does not really alter a thing and needs a meaningless configuration.
 Simply drop includes files into your CodeIgniter installation and enable hooks inside your `application/config/config.php` file
 
     $config['enable_hooks'] = TRUE;
@@ -45,7 +45,7 @@ There are some functions aliases that you can use as well
     - **_x()** which is a little short version of it.
     - **_ex()** which echoes the retrieved string.
 
-Even if I included these functions, you can still use __gettext__ functions as well. If you don't know if your hosting has gettext enabled or not, append **T_** to any gettext function you want to use. This way, whether enabled or not, you will get the string. Example:
+Even if I included these functions, you can still use __gettext__ functions as well. If you don't know if your hosting has gettext enabled or not, prepend **T_** to any gettext function you want to use. This way, whether enabled or not, you will get the string. Example:
 
     echo T_gettext($msgid);
     echo T_ngettext($singular, $plural, $number);
@@ -72,11 +72,11 @@ Example:
             'folder'  => 'french'
         )
     );
-#### switch_language(\$code = 'en')
+#### switch_language($code = 'en')
 As its name tell, if simply changes site current language.
 
 ### Using HMVC?
-If you are using HMVC structure ([wiredesignz](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc)), please check the README file included inside **application/core/** folder.
+If you are using HMVC structure ([wiredesignz](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc)), check ([HMVC Branch](https://github.com/bkader/ci-gettext-hook/tree/hmvc)).
 
 ## Credits and Licenses
 All credits go to their respective owners [CodeIgniter](http://www.codeigniter.com/) & [Launchpad](https://launchpad.net/php-gettext/) and a little bit of the rest for [Me](https://github.com/bkader/) :D.
