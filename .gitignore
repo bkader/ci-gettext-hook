@@ -11,7 +11,7 @@ application/controllers/*
 application/core/*
 !application/core/MY_Controller.php
 !application/core/README.md
-application/helpers
+application/helpers/*
 application/hooks
 !application/hooks/gettext
 application/language/index.php
@@ -24,6 +24,8 @@ application/models
 application/third_party
 application/views
 !application/views/welcome_message.php
+application/.htaccess
+application/index.html
 
 system/*
 !system/language
