@@ -8,8 +8,7 @@ application/config/*
 application/controllers/*
 !application/controllers/Process.php
 !application/controllers/Welcome.php
-application/core/*
-!application/core/MY_Controller.php
+application/core
 !application/core/README.md
 application/helpers
 application/hooks/*
