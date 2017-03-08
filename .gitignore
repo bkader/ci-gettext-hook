@@ -7,7 +7,6 @@ application/config/*
 !application/config/gettext.php
 application/controllers/*
 !application/controllers/Process.php
-!application/controllers/Welcome.php
 application/core/*
 !application/core/MY_Controller.php
 !application/core/README.md
@@ -23,7 +22,6 @@ application/models
 !application/modules
 application/third_party
 application/views/*
-!application/views/welcome_message.php
 application/.htaccess
 application/index.html
 
