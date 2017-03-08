@@ -1,3 +1,6 @@
+index.php
+!README.md
+
 application/cache
 application/config
 !application/config/hooks.php
