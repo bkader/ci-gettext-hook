@@ -20,7 +20,7 @@ application/libraries
 !application/locale
 application/logs
 application/models
-!application/modules
+application/modules
 application/third_party
 application/views/*
 !application/views/welcome_message.php
