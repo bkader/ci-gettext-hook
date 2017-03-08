@@ -21,7 +21,7 @@ application/logs
 application/models
 !application/modules
 application/third_party
-application/views/*
+application/views
 application/.htaccess
 application/index.html
 

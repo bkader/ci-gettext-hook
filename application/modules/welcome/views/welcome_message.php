@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="<?php echo $language['code']; ?>">
 <head>
 	<meta charset="utf-8">
-	<title><?php _e('Welcome to CodeIgniter'); ?></title>
+	<title><?php _e('Welcome to CodeIgniter', 'welcome'); ?></title>
 
 	<style type="text/css">
 
@@ -68,21 +68,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body dir="<?php echo $language['direction']; ?>">
 
 <div id="container">
-	<h1><?php _e('Welcome to CodeIgniter'); ?>!</h1>
+	<h1><?php _e('Welcome to CodeIgniter', 'welcome'); ?>!</h1>
 
 	<div id="body">
-		<p><?php _e("The page you are looking at is being generated dynamically by CodeIgniter."); ?></p>
+		<p><?php _e("The page you are looking at is being generated dynamically by CodeIgniter.", 'welcome'); ?></p>
 
-		<p><?php _e("If you would like to edit this page you'll find it located at:"); ?></p>
+		<p><?php _e("If you would like to edit this page you'll find it located at:", 'welcome'); ?></p>
 		<code>application/views/welcome_message.php</code>
 
-		<p><?php _e("The corresponding controller for this page is found at:"); ?></p>
+		<p><?php _e("The corresponding controller for this page is found at:", 'welcome'); ?></p>
 		<code>application/controllers/Welcome.php</code>
 
-		<p><?php _e("If you are exploring CodeIgniter for the very first time, you should start by reading the"); ?> <a href="http://www.codeigniter.com/user_guide/" target="_blank"><?php _e("User Guide"); ?></a>.</p>
+		<p><?php _e("If you are exploring CodeIgniter for the very first time, you should start by reading the", 'welcome'); ?> <a href="http://www.codeigniter.com/user_guide/" target="_blank"><?php _e("User Guide", 'welcome'); ?></a>.</p>
 	</div>
 
-	<p class="footer"><?php _e("Page rendered in"); ?> <strong>{elapsed_time}</strong> <?php _e("Seconds"); ?>. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>'.CI_VERSION.'</strong>' : '' ?> &#124; <?php echo @$lang_urls; ?></p>
+	<p class="footer"><?php _e("Page rendered in", 'welcome'); ?> <strong>{elapsed_time}</strong> <?php _e("Seconds"); ?>. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>'.CI_VERSION.'</strong>' : '' ?> &#124; <?php echo @$lang_urls; ?></p>
 </div>
 
 </body>

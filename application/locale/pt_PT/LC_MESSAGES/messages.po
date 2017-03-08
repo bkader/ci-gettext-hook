@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CodeIgniter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-02 23:00+0100\n"
-"PO-Revision-Date: 2017-02-09 12:05+0100\n"
+"PO-Revision-Date: 2017-03-08 11:41+0100\n"
 "Last-Translator: Kader Bouyakoub <bkader@mail.com>\n"
 "Language-Team: Kader Bouyakoub <bkader@mail.com>\n"
 "Language: pt_PT\n"
@@ -19,34 +19,6 @@ msgstr ""
 "X-Generator: Eazy Po 0.9.5.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _;__;_n;_d\n"
-
-msgid "Welcome to CodeIgniter"
-msgstr "Bem-vindo ao CodeIgniter"
-
-msgid ""
-"The page you are looking at is being generated dynamically by CodeIgniter."
-msgstr ""
-"A página que você está olhando está sendo gerado dinamicamente pelo "
-"CodeIgniter."
-
-msgid "If you would like to edit this page you'll find it located at:"
-msgstr "Se você gostaria de editar esta página você vai encontrá-lo em:"
-
-msgid "The corresponding controller for this page is found at:"
-msgstr "O controlador correspondente para esta página é encontrada em:"
-
-msgid ""
-"If you are exploring CodeIgniter for the very first time, you should "
-"start by reading the"
-msgstr ""
-"Se você está explorando CodeIgniter pela primeira vez, você deve começar "
-"por ler o"
-
-msgid "User Guide"
-msgstr "Guia do usuário"
-
-msgid "Page rendered in"
-msgstr "Página processada em"
 
 msgid "Arabic"
 msgstr "Árabe"
