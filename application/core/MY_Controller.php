@@ -81,7 +81,7 @@ class MY_Controller extends MX_Controller {
 			// IF $local_path is set, we bind textdomain.
 			if ($locale_path !== NULL)
 			{
-				T_bindtextdomain($this->module, $locale_path.'/locale');
+				T_bindtextdomain($module, $locale_path);
 			}
 
 			return $module;

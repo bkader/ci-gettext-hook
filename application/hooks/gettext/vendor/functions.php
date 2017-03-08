@@ -16,54 +16,88 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if ( ! function_exists('current_language')) {
 	/**
 	 * Returns current used language
-	 * @param 	string 	$key 	the key to return
-	 * @return 	mixed 			the key of language array
+	 * @param 	mixed 	one argument, one return, multiple argument, array returned.
+	 * @return 	mixed 	the key of language array or an array.
 	 */
-	function current_language($key = NULL)
+	function current_language()
 	{
 		global $CFG;
+
 		$return = $CFG->item('current_language');
-		if ($key !== NULL && isset($return[$key]))
+
+		// In case no arguments are passed.
+		if (empty(func_get_args()))
 		{
-			$return = $return[$key];
+			return $return;
 		}
-		return $return;
+
+		$args = func_get_args();
+		is_array($args[0]) && $args = $arg[0];
+
+		if (count($args) == 1)
+		{
+			return $return[$args[0]];
+		}
+
+		return array_intersect_key($return, array_flip($args));
 	}
 }
 
 if ( ! function_exists('default_language')) {
 	/**
 	 * Returns default used language
-	 * @param 	string 	$key 	the key to return
-	 * @return 	mixed 			the key of language array
+	 * @param 	mixed 	one argument, one return, multiple argument, array returned.
+	 * @return 	mixed 	the key of language array or an array.
 	 */
-	function default_language($key = NULL)
+	function default_language()
 	{
 		global $CFG;
 		$return = $CFG->item('default_language');
-		if ($key !== NULL && isset($return[$key]))
+
+		// In case no arguments are passed.
+		if (empty(func_get_args()))
 		{
-			$return = $return[$key];
+			return $return;
 		}
-		return $return;
+
+		$args = func_get_args();
+		is_array($args[0]) && $args = $arg[0];
+
+		if (count($args) == 1)
+		{
+			return $return[$args[0]];
+		}
+
+		return array_intersect_key($return, array_flip($args));
 	}
 }
 
 if ( ! function_exists('client_language')) {
 	/**
 	 * Returns client used language
-	 * @param 	string 	$key 	the key to return
-	 * @return 	mixed 			the key of language array
+	 * @param 	mixed 	one argument, one return, multiple argument, array returned.
+	 * @return 	mixed 	the key of language array or an array.
 	 */
 	function client_language($key = NULL)
 	{
 		global $CFG;
 		$return = $CFG->item('client_language');
-		if ($key !== NULL && isset($return[$key]))
+
+		// In case no arguments are passed.
+		if (empty(func_get_args()))
 		{
-			$return = $return[$key];
+			return $return;
 		}
-		return $return;
+
+		$args = func_get_args();
+		is_array($args[0]) && $args = $arg[0];
+
+		if (count($args) == 1)
+		{
+			return $return[$args[0]];
+		}
+
+		return array_intersect_key($return, array_flip($args));
 	}
 }
 
@@ -78,22 +112,26 @@ if ( ! function_exists('languages')) {
 		global $CFG;
 		$return = $CFG->item('languages');
 
-		if (count($args = func_get_args()))
+		// In case no arguments are passed.
+		if ( ! empty($args = func_get_args()))
 		{
+			$args = func_get_args();
+			is_array($args[0]) && $args = $arg[0];
+
 			$_return = array();
 			foreach ($return as $folder => $lang)
 			{
-				$_return[$folder] = array();
-				foreach ($args as $arg)
+				if (count($args) == 1)
 				{
-					if (isset($lang[$arg]))
-					{
-						$_return[$folder][$arg] = $lang[$arg];
-					}
+					$_return[$folder] = $lang[$args[0]];
+				}
+				else
+				{
+					$_return[$folder] = array_intersect_key($lang, array_flip($args));
 				}
 			}
 
-			$return = $_return;
+			empty($_return) OR $return = $_return;
 		}
 
 		return $return;
