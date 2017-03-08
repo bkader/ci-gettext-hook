@@ -5,12 +5,13 @@ application/cache
 application/config
 !application/config/hooks.php
 !application/config/gettext.php
-application/controllers
+application/controllers/*
 !application/controllers/Process.php
 !application/controllers/Welcome.php
 application/core
 !application/core/MY_Controller.php
 !application/core/README.md
+application/helpers
 application/hooks
 !application/hooks/gettext
 application/language/index.php
