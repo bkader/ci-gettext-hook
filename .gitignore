@@ -1,8 +1,8 @@
-index.php
+**/index.php
 !README.md
 
 application/cache
-application/config
+application/config/*
 !application/config/hooks.php
 !application/config/gettext.php
 application/controllers/*
@@ -11,8 +11,8 @@ application/controllers/*
 application/core/*
 !application/core/MY_Controller.php
 !application/core/README.md
-application/helpers/*
-application/hooks
+application/helpers
+application/hooks/*
 !application/hooks/gettext
 application/language/index.php
 !application/language
@@ -22,7 +22,7 @@ application/logs
 application/models
 !application/modules
 application/third_party
-application/views
+application/views/*
 !application/views/welcome_message.php
 application/.htaccess
 application/index.html
