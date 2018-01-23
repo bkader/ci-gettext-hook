@@ -102,6 +102,11 @@ class Gettext
 		{
 			return;
 		}
+		
+		if ( ! empty($this->config['cookie']))
+		{
+			$this->config['cookie'] = config_item('cookie_prefix').str_replace(config_item('cookie_prefix'), '', $this->config['cookie']);
+		}
 
 		// Set site default language and add the config item.
 		$default = $this->_get_default_language();
