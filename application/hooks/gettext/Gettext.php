@@ -273,7 +273,7 @@ class Gettext
 		$folder = NULL;
 
 		// Check if any cookie is set
-		if ($cookie = $IN->cookie($this->config['cookie'], TRUE))
+		if ($cookie = $IN->cookie(config_item('cookie_prefix').$this->config['cookie'], TRUE))
 		{
 			$folder = $cookie;
 		}
