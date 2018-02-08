@@ -1,0 +1,61 @@
+# CodeIgniter Gettext Hook.
+# Copyright (C) 2018 Ianhub™
+# This file is distributed under the same license as the PACKAGE package.
+# Kader Bouyakoub <bkader@ianhub.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: CodeIgniter Gettext Hook\n"
+"Report-Msgid-Bugs-To: bkader@ianhub.net\n"
+"POT-Creation-Date: 2018-02-06 12:50+0100\n"
+"PO-Revision-Date: 2018-02-08 20:42+0100\n"
+"Last-Translator: Kader Bouyakoub\n"
+"Language-Team: Ianhub™\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Arabic"
+msgstr "العربية"
+
+msgid "English"
+msgstr "الإنجليزية"
+
+msgid "French"
+msgstr "الفرنسية"
+
+msgid "German"
+msgstr "الالمانية"
+
+msgid "Italian"
+msgstr "الايطالية"
+
+msgid "Portuguese"
+msgstr "البرتغالية"
+
+msgid "Spanish"
+msgstr "الأسبانية"
+
+msgid "Welcome to CodeIgniter"
+msgstr "مرحبا بكم في كودينيتر"
+
+msgid "The page you are looking at is being generated dynamically by CodeIgniter."
+msgstr "الصفحة التي تشاهدها الآن تم إنشاؤها ديناميكيا بواسطة كودينيتر."
+
+msgid "If you would like to edit this page you'll find it located at"
+msgstr "إذا كنت ترغب في تعديل هذه الصفحة ستجدها في"
+
+msgid "The corresponding controller for this page is found at"
+msgstr "يمكن العثور على وحدة تحكم هذه الصفحة في"
+
+msgid "If you are exploring CodeIgniter for the very first time, you should start by reading the %."
+msgstr "إذا كنت تستكشف كودينيتر للمرة الأولى، فمن الأفضل قراءة %s."
+
+msgid "User Guide"
+msgstr "دليل المستخدم"
+
+msgid "Page rendered in <strong>{elapsed_time}</strong> seconds."
+msgstr "تم عرض الصفحة خلال <strong>{elapsed_time}</strong> ثانية."

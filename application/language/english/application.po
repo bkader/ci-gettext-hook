@@ -1,0 +1,61 @@
+# CodeIgniter Gettext Hook.
+# Copyright (C) 2018 Ianhub™
+# This file is distributed under the same license as the PACKAGE package.
+# Kader Bouyakoub <bkader@ianhub.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: CodeIgniter Gettext Hook\n"
+"Report-Msgid-Bugs-To: bkader@ianhub.net\n"
+"POT-Creation-Date: 2018-02-06 12:50+0100\n"
+"PO-Revision-Date: 2018-02-08 20:21+0100\n"
+"Last-Translator: Kader Bouyakoub\n"
+"Language-Team: Ianhub™\n"
+"Language: eng\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Arabic"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Welcome to CodeIgniter"
+msgstr ""
+
+msgid "The page you are looking at is being generated dynamically by CodeIgniter."
+msgstr ""
+
+msgid "If you would like to edit this page you'll find it located at"
+msgstr ""
+
+msgid "The corresponding controller for this page is found at"
+msgstr ""
+
+msgid "If you are exploring CodeIgniter for the very first time, you should start by reading the %."
+msgstr ""
+
+msgid "User Guide"
+msgstr ""
+
+msgid "Page rendered in <strong>{elapsed_time}</strong> seconds."
+msgstr ""

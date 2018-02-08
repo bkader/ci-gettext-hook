@@ -1,0 +1,852 @@
+# CodeIgniter Gettext Hook.
+# Copyright (C) 2018 Ianhub™
+# This file is distributed under the same license as the PACKAGE package.
+# Kader Bouyakoub <bkader@ianhub.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: CodeIgniter Gettext Hook\n"
+"Report-Msgid-Bugs-To: bkader@ianhub.net\n"
+"POT-Creation-Date: 2018-02-06 12:50+0100\n"
+"PO-Revision-Date: 2018-02-08 16:12+0100\n"
+"Last-Translator: Kader Bouyakoub\n"
+"Language-Team: Ianhub™\n"
+"Language: ara\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-Basepath: .\n"
+
+# Calendar lines.
+msgid "Su"
+msgstr "أح"
+
+msgid "Mo"
+msgstr "إث"
+
+msgid "Tu"
+msgstr "ثل"
+
+msgid "We"
+msgstr "أر"
+
+msgid "Th"
+msgstr "خم"
+
+msgid "Fr"
+msgstr "جم"
+
+msgid "Sa"
+msgstr "سب"
+
+msgid "Sun"
+msgstr "أح"
+
+msgid "Mon"
+msgstr "إث"
+
+msgid "Tue"
+msgstr "ثل"
+
+msgid "Wed"
+msgstr "أر"
+
+msgid "Thu"
+msgstr "خم"
+
+msgid "Fri"
+msgstr "جم"
+
+msgid "Sat"
+msgstr "سب"
+
+msgid "Sunday"
+msgstr "الأحد"
+
+msgid "Monday"
+msgstr "الإثنين"
+
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+msgid "Thursday"
+msgstr "الخميس"
+
+msgid "Friday"
+msgstr "الجمعة"
+
+msgid "Saturday"
+msgstr "السبت"
+
+msgid "Jan"
+msgstr "ينا"
+
+msgid "Feb"
+msgstr "فبر"
+
+msgid "Mar"
+msgstr "مار"
+
+msgid "Apr"
+msgstr "أبر"
+
+msgid "May"
+msgstr "ماي"
+
+msgid "Jun"
+msgstr "يون"
+
+msgid "Jul"
+msgstr "يول"
+
+msgid "Aug"
+msgstr "أغس"
+
+msgid "Sep"
+msgstr "سبت"
+
+msgid "Oct"
+msgstr "أوك"
+
+msgid "Nov"
+msgstr "نوف"
+
+msgid "Dec"
+msgstr "ديس"
+
+msgid "January"
+msgstr "يناير"
+
+msgid "February"
+msgstr "فبراير"
+
+msgid "March"
+msgstr "مارس"
+
+msgid "April"
+msgstr "إبريل"
+
+msgid "June"
+msgstr "يونيو"
+
+msgid "July"
+msgstr "يوليو"
+
+msgid "August"
+msgstr "أغسطس"
+
+msgid "September"
+msgstr "سبتمبر"
+
+msgid "October"
+msgstr "أكتوبر"
+
+msgid "November"
+msgstr "نوفمبر"
+
+msgid "December"
+msgstr "ديسمبر"
+
+# Date lines.
+msgid "Year"
+msgstr "سنة"
+
+msgid "Years"
+msgstr "سنوات"
+
+msgid "Month"
+msgstr "شهر"
+
+msgid "Months"
+msgstr "أشهر"
+
+msgid "Week"
+msgstr "أسبوع"
+
+msgid "Weeks"
+msgstr "أسابيع"
+
+msgid "Day"
+msgstr "يوم"
+
+msgid "Days"
+msgstr "أيام"
+
+msgid "Hour"
+msgstr "ساعة"
+
+msgid "Hours"
+msgstr "ساعات"
+
+msgid "Minute"
+msgstr "دقيقة"
+
+msgid "Minutes"
+msgstr "دقائق"
+
+msgid "Second"
+msgstr "ثانية"
+
+msgid "Seconds"
+msgstr "ثواني"
+
+msgid "(UTC -12:00) Baker/Howland Island"
+msgstr "(UTC -12:00) جزيرة بيكر/هاولاند"
+
+msgid "(UTC -11:00) Niue"
+msgstr "(UTC -11:00) توقيت ساموا، نيو"
+
+msgid "(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti"
+msgstr "(UTC -10:00) توقيت هاواي-أليوت الرسمي، جُزر كوك، تاهيتي"
+
+msgid "(UTC -9:30) Marquesas Islands"
+msgstr "(UTC -9:30) جُزر ماركيساس"
+
+msgid "(UTC -9:00) Alaska Standard Time, Gambier Islands"
+msgstr "(UTC -9:00) توقيت ألاسكا الرسمي، جُزر جامبير"
+
+msgid "(UTC -8:00) Pacific Standard Time, Clipperton Island"
+msgstr "(UTC -8:00) توقيت الهادي الرسمي، جزيرة كليبّرتون"
+
+msgid "(UTC -7:00) Mountain Standard Time"
+msgstr "(UTC -7:00) توقيت ماونتاين الرسمي"
+
+msgid "(UTC -6:00) Central Standard Time"
+msgstr "(UTC -6:00) التوقيت المركزي الرسمي"
+
+msgid "(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time"
+msgstr "(UTC -5:00) التوقيت الشرقي الرسمي، توقيت شرق الكاريبي الرسمي"
+
+msgid "(UTC -4:30) Venezuelan Standard Time"
+msgstr "(UTC -4:30) توقيت فنزويلا الرسمي"
+
+msgid "(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time"
+msgstr "(UTC -4:00) توقيت الأطلنطي الرسمي، توقيت شرق الكاريبي الرسمي"
+
+msgid "(UTC -3:30) Newfoundland Standard Time"
+msgstr "(UTC -3:30) توقيت نيوفاوندلاند الرسمي"
+
+msgid "(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay"
+msgstr "(UTC -3:00) الأرجنتين، البرازيل، غويانا الفرنسية، الأوروغواي"
+
+msgid "(UTC -2:00) South Georgia/South Sandwich Islands"
+msgstr "(UTC -2:00) غرب جورجيا، جُزر غرب ساندويتش"
+
+msgid "(UTC -1:00) Azores, Cape Verde Islands"
+msgstr "(UTC -1:00) الأزور، جُزر كيب فيرد"
+
+msgid "(UTC) Greenwich Mean Time, Western European Time"
+msgstr "(UTC) توقيت غرينتش، توقيت غرب أوروبا"
+
+msgid "(UTC +1:00) Central European Time, West Africa Time"
+msgstr "(UTC +1:00) توقيت وسط أوروبا، توقيت غرب إفريقيا"
+
+msgid "(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time"
+msgstr "(UTC +2:00) توقيت وسط أفريقيا، توقيت شرق أوروبا، توقيت كالننغراد"
+
+msgid "(UTC +3:00) Moscow Time, East Africa Time, Arabia Standard Time"
+msgstr "(UTC +3:00) توقيت موسكو، توقيت شرق إفريقيا"
+
+msgid "(UTC +3:30) Iran Standard Time"
+msgstr "(UTC +3:30) توقيت إيران الرسمي"
+
+msgid "(UTC +4:00) Azerbaijan Standard Time, Samara Time"
+msgstr "(UTC +4:00) توقيت أذربيجان الرسمي، توقيت سمارا"
+
+msgid "(UTC +4:30) Afghanistan"
+msgstr "(UTC +4:30) أفغانستان"
+
+msgid "(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time"
+msgstr "(UTC +5:00) توقيت باكستان الرسمي، توقيت نِكاتيريبورغ"
+
+msgid "(UTC +5:30) Indian Standard Time, Sri Lanka Time"
+msgstr "(UTC +5:30) توقيت الهند الرسمي، توقيت سريلانكا"
+
+msgid "(UTC +5:45) Nepal Time"
+msgstr "(UTC +5:45) توقيت نيبال"
+
+msgid "(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time"
+msgstr "(UTC +6:00) تويقت بنغلادش الرسمي، توقيت بوتان، توقيت أمسك"
+
+msgid "(UTC +6:30) Cocos Islands, Myanmar"
+msgstr "(UTC +6:30) جُزر كوكوس، ميانمار"
+
+msgid "(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam"
+msgstr "(UTC +7:00) توقيت كراسنويارسك، كمبوديا، لاوس، تايلاند، الفيتنام"
+
+msgid "(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time"
+msgstr "(UTC +8:00) توقيت غرب أستراليا الرسمي، توقيت بيينغ، توقيت إركتسك"
+
+msgid "(UTC +8:45) Australian Central Western Standard Time"
+msgstr "(UTC +8:45) توقيت غرب وسط أستراليا الرسمي"
+
+msgid "(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time"
+msgstr "(UTC +9:00) توقيت اليابان الرسمي، توقيت كوريا الرسمي، توقيت ياكوتسك"
+
+msgid "(UTC +9:30) Australian Central Standard Time"
+msgstr "(UTC +9:30) توقيت وسط أستراليا الرسمي"
+
+msgid "(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time"
+msgstr "(UTC +10:00) توقيت شرق أستراليا الرسمي، توقيت فلاديفوستوك"
+
+msgid "(UTC +10:30) Lord Howe Island"
+msgstr "(UTC +10:30) جُزر لورد هووي"
+
+msgid "(UTC +11:00) Srednekolymsk Time, Solomon Islands, Vanuatu"
+msgstr "(UTC +11:00) توقيت ماغادان، جُزر سليمان، فاناتاو"
+
+msgid "(UTC +11:30) Norfolk Island"
+msgstr "(UTC +11:30) جزيرة نورفولك"
+
+msgid "(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time"
+msgstr "(UTC +12:00) توقيت فيجي، جُزر جلبير، كاماتشاتكا، توقيت نيوزلنده الرسمي"
+
+msgid "(UTC +12:45) Chatham Islands Standard Time"
+msgstr "(UTC +12:45) توقيت جُزر تشاذام الرسمي"
+
+msgid "(UTC +13:00) Samoa Time Zone, Phoenix Islands Time, Tonga"
+msgstr "(UTC +13:00) توقيت جُزر فينكس، تونغا"
+
+msgid "(UTC +14:00) Line Islands"
+msgstr "(UTC +14:00) جُزر لاين"
+
+# Database lines.
+msgid "Unable to determine the database settings based on the connection string you submitted."
+msgstr "غير قادر على إيجاد إعدادات الإتصال بقواعد البيانات بناء على البيانات المرسلة."
+
+msgid "Unable to connect to your database server using the provided settings."
+msgstr "غير قادر على الإتصال بقواعد البيانات بناء على الإعدادات المقدمة."
+
+msgid "Unable to select the specified database: %s"
+msgstr "غير قادر على تحديد قاعدة البيانات التالية: %s"
+
+msgid "Unable to create the specified database: %s"
+msgstr "غير قادر على إنشاء قاعدة البيانات التالية: %s"
+
+msgid "The query you submitted is not valid."
+msgstr "الإستعلام المرسل غير صحيح."
+
+msgid "You must set the database table to be used with your query."
+msgstr "يجب وضع جدول قاعدة بيانات للإستخدامة مع الإستعلام."
+
+msgid "You must use the \"set\" method to update an entry."
+msgstr "يجب إستخدام خاصية \"set\" لتحديث السجيل."
+
+msgid "You must specify an index to match on for batch updates."
+msgstr "يجب تحديد رقم للتحديثات."
+
+msgid "One or more rows submitted for batch updating is missing the specified index."
+msgstr "سجل أو أكثر لا يحتوى على رقم التحديث."
+
+msgid "Updates are not allowed unless they contain a \"where\" clause."
+msgstr "التحديث غير مسموح به مالم يحتوى على جملة \"where\" أو \"like\"."
+
+msgid "Deletes are not allowed unless they contain a \"where\" or \"like\" clause."
+msgstr "الحذف غير مسموح به مالم يحتوى على جملة \"where\" أو \"like\"."
+
+msgid "To fetch fields requires the name of the table as a parameter."
+msgstr "لجلب أسماء الحقول يجب إرسال إسم الجدول كمتغير."
+
+msgid "This feature is not available for the database you are using."
+msgstr "هذه الميزة غير متوفرة في قاعدة البيانات التى تستخدمها."
+
+msgid "Transaction failure: Rollback performed."
+msgstr "فشل في الإجراء: تم التراجع عن الإجراء."
+
+msgid "Unable to drop the specified database."
+msgstr "غير قادر على إزالة قاعدة البيانات المحددة."
+
+msgid "Unsupported feature of the database platform you are using."
+msgstr "ميزة غير متوفرة في قاعدة البيانات التى تستخدمها."
+
+msgid "The file compression format you chose is not supported by your server."
+msgstr "نوع ضغط الملف المحدد غير مدعوم على الخادم."
+
+msgid "Unable to write data to the file path you have submitted."
+msgstr "غير قادر على كتابة الملف في المسار المحدد."
+
+msgid "The cache path you submitted is not valid or writable."
+msgstr "مسار التخزين المؤقت غير صحيح أو غير قابل للكتابة."
+
+msgid "A table name is required for that operation."
+msgstr "إسم الجدول مطلوب لهذه العملية."
+
+msgid "A column name is required for that operation."
+msgstr "إسم العمود مطلوب لهذه العملية."
+
+msgid "A column definition is required for that operation."
+msgstr "تعريف العمود مطلوب لهذه العملية."
+
+msgid "Unable to set client connection character set: %s"
+msgstr "غير قادر على تحديد نوع الترميز: %s"
+
+msgid "A Database Error Occurred"
+msgstr "حصل خطأ في قاعدة البيانات"
+
+# Email lines.
+msgid "The email validation method must be passed an array."
+msgstr "يجب تمرير مصفوفة إلى دالة التحقق من البريد الإلكتروني."
+
+msgid "Invalid email address: %s"
+msgstr "عنوان بريد إلكتروني خاطيء: %s"
+
+msgid "Unable to locate the following email attachment: %s"
+msgstr "غير قادر على إيجاد الملف المرفق: %s"
+
+msgid "Unable to open this attachment: %s"
+msgstr "غير قاد على فتح الملف المرفق: %s"
+
+msgid "Cannot send mail with no \"From\" header."
+msgstr "لا يمكن إرسال البريد الإلكتروني بدون تحديد المرسل."
+
+msgid "You must include recipients: To, Cc, or Bcc"
+msgstr "يجب إضافة مستقبلين: To, Cc, or Bcc"
+
+msgid "Unable to send email using PHP mail(). Your server might not be configured to send mail using this method."
+msgstr "غير قادر على الإرسال بإستخدام PHP mail(). قد يكون الخادم غير معد للإرسال بإستخدام هذه الطريقة."
+
+msgid "Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method."
+msgstr "غير قادر على الإرسال بإستخدام PHP Sendmail. قد يكون الخادم غير معد للإرسال بإستخدام هذه الطريقة."
+
+msgid "Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method."
+msgstr "غير قادر على الإرسال بإستخدام PHP SMTP. قد يكون الخادم غير معد للإرسال بإستخدام هذه الطريقة."
+
+msgid "Your message has been successfully sent using the following protocol: %s"
+msgstr "تم إرسال الرسالة بنجاح بإستخدام البروتوكول التالي: %s"
+
+msgid "Unable to open a socket to Sendmail. Please check settings."
+msgstr "غير قادر على فتح إتصال مع Sendmail. الرجاء التأكد من الإعدادات."
+
+msgid "You did not specify a SMTP hostname."
+msgstr "لم تحدد إسم المضيف لـ SMTP."
+
+msgid "The following SMTP error was encountered: %s"
+msgstr "حدث خطأ SMTP: %s"
+
+msgid "Error: You must assign a SMTP username and password."
+msgstr "خطأ: يجب تحديد إسم مستخدم وكلمة مرور لـ SMTP."
+
+msgid "Failed to send AUTH LOGIN command. Error: %s"
+msgstr "فشل في إرسال أمر AUTH LOGIN command. الخطأ: %s"
+
+msgid "Failed to authenticate username. Error: %s"
+msgstr "فشل في التحقق من إسم المستخدم. الخطأ: %s"
+
+msgid "Failed to authenticate password. Error: %s"
+msgstr "فشل في التحقق من كلمة مرور. الخطأ: %s"
+
+msgid "Unable to send data: %s"
+msgstr "غير قادر على إرسال البيانات: %s"
+
+msgid "Exit status code: %s"
+msgstr "رمز الخطأ: %s"
+
+# Form validation lines.
+msgid "The %s field is required."
+msgstr "الحقل %s إجباري."
+
+msgid "The %s field must have a value."
+msgstr "الحقل %s يجب أن يحتوى على قيمة."
+
+msgid "The %s field must contain a valid email address."
+msgstr "الحقل %s يجب أن يحتوى عنوان بريد إلكتروني صحيح."
+
+msgid "The %s field must contain all valid email addresses."
+msgstr "الحقل %s يجب أن يحتوى على عناوين بريد إلكتروني صحيحة."
+
+msgid "The %s field must contain a valid URL."
+msgstr "الحقل %s يجب أن يحتوى على رابط."
+
+msgid "The %s field must contain a valid IP."
+msgstr "الحقل %s يجب أن يحتوى على عنوان أي بي."
+
+msgid "The %s field must be at least %s characters in length."
+msgstr "الحقل %s يجب أن لا يقل عن %s حرف."
+
+msgid "The %s field cannot exceed %s characters in length."
+msgstr "الحقل %s يجب أن لا يتجاوز أكثر من %s حرف."
+
+msgid "The %s field must be exactly %s characters in length."
+msgstr "الحقل %s يجب أن يكون بطول %s حرف."
+
+msgid "The %s field may only contain alphabetical characters."
+msgstr "الحقل %s يمكن أن يحتوى على أحرف فقط."
+
+msgid "The %s field may only contain alpha-numeric characters."
+msgstr "الحقل %s يمكن أن يحتوى على أحرف وأرقام فقط."
+
+msgid "The %s field may only contain alpha-numeric characters and spaces."
+msgstr "الحقل %s يمكن أن يحتوى على أحرف وأرقام و فراغات فقط."
+
+msgid "The %s field may only contain alpha-numeric characters, underscores, and dashes."
+msgstr "الحقل %s يمكن أن يحتوى على أحرف وأرقام أو شرطة أو شرطة سفلية."
+
+msgid "The %s field must contain only numbers."
+msgstr "الحقل %s يجب أن يحتوى على أرقام فقط."
+
+msgid "The %s field must contain only numeric characters."
+msgstr "الحقل %s يجب أن يحتوى على أرقام فقط."
+
+msgid "The %s field must contain an integer."
+msgstr "الحقل %s يجب أن يحتوى على رقم صحيح فقط."
+
+msgid "The %s field is not in the correct format."
+msgstr "الحقل %s لا يحتوى على قيمة بشكل صحيح."
+
+msgid "The %s field does not match the %s field."
+msgstr "الحقل %s لا يساوي الحقل %s."
+
+msgid "The %s field must differ from the %s field."
+msgstr "الحقل %s يجب أن يكون مختلف عن الحقل %s."
+
+msgid "The %s field must contain a unique value."
+msgstr "الحقل %s يجب أن يحتوى على قيمة غير متكررة."
+
+msgid "The %s field must only contain digits."
+msgstr "الحقل %s يجب أن يحتوى على رقم."
+
+msgid "The %s field must only contain digits and must be greater than zero."
+msgstr "الحقل %s يجب أن يحتوى على رقم أكبر من صفر."
+
+msgid "The %s field must contain a decimal number."
+msgstr "الحقل %s يجب أن يحتوى على رقم عشري."
+
+msgid "The %s field must contain a number less than %s."
+msgstr "الحقل %s يجب أن يحتوى على رقم أقل من %s."
+
+msgid "The %s field must contain a number less than or equal to %s."
+msgstr "الحقل %s يجب أن يحتوى على رقم أقل أو يساوي %s."
+
+msgid "The %s field must contain a number greater than %s."
+msgstr "الحقل %s يجب أن يحتوى على رقم أكبر من %s."
+
+msgid "The %s field must contain a number greater than or equal to %s."
+msgstr "الحقل %s يجب أن يحتوى على رقم أكبر من أو يساوي %s."
+
+msgid "Unable to access an error message corresponding to your field name %s."
+msgstr "الحقل%s  غير قادر على الوصول إلى رسالة خطأ المقابلة ل اسم مجال عملك."
+
+msgid "The %s field must be one of: %s."
+msgstr "يجب أن يكون الحقل %s واحدا من: %s."
+
+# FTP lines.
+msgid "Unable to locate a valid connection ID. Please make sure you are connected before performing any file routines."
+msgstr "تعذّر العثور على مُعرّف اتصال صالح. الرجاء التأكّد من أنك متّصل قبل القيام بأية عمليات."
+
+msgid "Unable to connect to your FTP server using the supplied hostname."
+msgstr "تعذّر الاتّصال بخادم FTP من خلال اسم المضيف المحدّد."
+
+msgid "Unable to login to your FTP server. Please check your username and password."
+msgstr "تعذّر تسجيل الدخول إلى خادم FTP. الرجاء التحقّق من إسم المستخدم وكلمة السرّ."
+
+msgid "Unable to create the directory you have specified."
+msgstr "تعذّر إنشاء الدليل المُحدّد."
+
+msgid "Unable to change directories."
+msgstr "تعذّر الانتقال إلى الدليل."
+
+msgid "Unable to set file permissions. Please check your path."
+msgstr "تعذّر تعيين صلاحيات الملف. الرجاء التحقق من المسار. ملاحظة: هذه الميزة متوفّرة فقط في PHP الإصدار 5 أو الأحدث."
+
+msgid "Unable to upload the specified file. Please check your path."
+msgstr "تعذّر رفع الملف المحدّد. الرجاء التحقّق من المسار."
+
+msgid "Unable to download the specified file. Please check your path."
+msgstr "تعذّر تنزيل الملف المحدّد. الرجاء التحقّق من المسار."
+
+msgid "Unable to locate the source file. Please check your path."
+msgstr "تعذّر العثور على الملف المصدر. الرجاء التحقق من المسار."
+
+msgid "Unable to rename the file."
+msgstr "تعذّرت إعادة تسيمة الملف."
+
+msgid "Unable to delete the file."
+msgstr "تعذّر حذف الملف."
+
+msgid "Unable to move the file. Please make sure the destination directory exists."
+msgstr "تعذّر نقل الملف. الرجاء التأكد من وجود الدليل الهدف."
+
+# Image library lines.
+msgid "You must specify a source image in your preferences."
+msgstr "يجب تحديد مصدر الصورة في التفضيلات."
+
+msgid "The GD image library is required for this feature."
+msgstr "مكتبة الصور GD مطلوبة لهذه الميزة."
+
+msgid "Your server must support the GD image library in order to determine the image properties."
+msgstr "لتحديد خصائص الصورة يجب تفعيل مكتبة GD على الخادم."
+
+msgid "Your server does not support the GD function required to process this type of image."
+msgstr "مكتبة الصور GD لا تدعم التعامل مع هذا النوع من الصور."
+
+msgid "GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead."
+msgstr "صور GIF غالبا غير مدعوة بسبب قيود الترخيص, بدلا من ذلك إستخدم صور من نوع JPG او PNG."
+
+msgid "JPG images are not supported."
+msgstr "الصور من نوع JPG غير مدعومة."
+
+msgid "PNG images are not supported."
+msgstr "الصور من نوع PNG غير مدعومة."
+
+msgid "The image resize protocol specified in your preferences only works with JPEG or PNG image types."
+msgstr "بروتوكول تغير الحجم المحدد في تفضيلات الصور يعمل فقط مع الصور من نوع JPG و PNG."
+
+msgid "An error was encountered while attempting to replace the file. Please make sure your file directory is writable."
+msgstr "حدث خطأ اثناء عملية إستبدال الملف. الرجاء التأكد من أن المجلد قابل للكتابة."
+
+msgid "Image rotation does not appear to be supported by your server."
+msgstr "تدوير الصور غير مدعوم في الخادم."
+
+msgid "The path to your image library is not correct. Please set the correct path in your image preferences."
+msgstr "مسار مكتبة الصو غير صحيح. الرجاء ضع مسار صحيح في تفضيلات الصورة."
+
+msgid "Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct."
+msgstr "معالجة الصورة فشلت. الرجاء التحقق من أن الخادم يدعم بروتوكول الصور و مسار مكتبة الصور صحيح."
+
+msgid "An angle of rotation is required to rotate the image."
+msgstr "زاوية الدوران مطلوبة لتدوير الصورة."
+
+msgid "The path to the image is not correct."
+msgstr "مسار الصورة غير صحيح."
+
+msgid "The provided image is not valid."
+msgstr "الصورة غير صحيحة."
+
+msgid "The image copy routine failed."
+msgstr "عملية نسخ الصورة فشلت."
+
+msgid "Unable to find a font to use."
+msgstr "غير قادر على إيجاد الخط."
+
+msgid "Unable to save the image. Please make sure the image and file directory are writable."
+msgstr "غير قادر على حفظ الصورة. الرجاء التأكد من أن ملف الصورة والمجلد قابلة للكتابة."
+
+# Migration lines.
+msgid "No migrations were found."
+msgstr "لا يوجد أي عمليات ترحيل."
+
+msgid "No migration could be found with the version number: %s."
+msgstr "تعذر العثور على عملية الترحيل هذه."
+
+msgid "There is a gap in the migration sequence near version number: %s."
+msgstr "هناك فجوة بين تسلسل عمليات الترحيل عند الرقم : %s."
+
+msgid "There are multiple migrations with the same version number: %s."
+msgstr "هناك عدة عمليات ترحيل لها نفس التعداد: %s."
+
+msgid "The migration class \"%s\" could not be found."
+msgstr "تعذر العثور على صنف الترحيل \"%s\"."
+
+msgid "The migration class \"%s\" is missing an \"up\" method."
+msgstr "صنيف الترحيل \"%s\" يفتقد إلى دالة \"up\"."
+
+msgid "The migration class \"%s\" is missing a \"down\" method."
+msgstr "صنف الترحيل \"%s\" يفتقد إلى دالة \"down\"."
+
+msgid "Migration \"%s\" has an invalid filename."
+msgstr "اسم الملف الخاص بالترحيل \"%s\" غير صحيح."
+
+# Number lines.
+msgid "TB"
+msgstr "ت.ب"
+
+msgid "GB"
+msgstr "ج.ب"
+
+msgid "MB"
+msgstr "م.ب"
+
+msgid "KB"
+msgstr "ك.ب"
+
+msgid "Bytes"
+msgstr "بايت"
+
+# Pagination lines
+msgid "&lsaquo; First"
+msgstr "&lsaquo; الأول"
+
+msgid "&gt;"
+msgstr "&gt;"
+
+msgid "&lt;"
+msgstr "&lt;"
+
+msgid "Last &rsaquo;"
+msgstr "الأخير &rsaquo;"
+
+# Profiler lines.
+msgid "DATABASE"
+msgstr "قاعدة البيانات"
+
+msgid "CLASS/METHOD"
+msgstr "الصنف/الدالة"
+
+msgid "BENCHMARKS"
+msgstr "بيانات التقييم"
+
+msgid "QUERIES"
+msgstr "الاستعلامات"
+
+msgid "GET DATA"
+msgstr "بيانات GET"
+
+msgid "POST DATA"
+msgstr "بيانات POST"
+
+msgid "URI STRING"
+msgstr "سطر URI"
+
+msgid "MEMORY USAGE"
+msgstr "استهلاك الذاكرة"
+
+msgid "CONFIG VARIABLES"
+msgstr "متغيّرات التهيئة"
+
+msgid "SESSION DATA"
+msgstr "بيانات الجلسة"
+
+msgid "HTTP HEADERS"
+msgstr "ترويسات HTTP"
+
+msgid "Database driver is not currently loaded"
+msgstr "لا يوجد أي مُعرف قاعدة بيانات مُحمّل حالياً"
+
+msgid "No queries were run"
+msgstr "لم تنفّذ أية استعلامات"
+
+msgid "No POST data exists"
+msgstr "ليس هناك بيانات POST"
+
+msgid "No GET data exists"
+msgstr "ليس هناك بيانات GET"
+
+msgid "No URI data exists"
+msgstr "ليس هناك بيانات URI"
+
+msgid "Memory Usage Unavailable"
+msgstr "بيانات استهلاك الذاكرة غير متوفرة"
+
+msgid "No Profile data - all Profiler sections have been disabled."
+msgstr "لا يوجد أي بيانات تقييم حيث أن جميع أقسام التقييم مُعطّلة."
+
+msgid "Hide"
+msgstr "اخفاء"
+
+msgid "Show"
+msgstr "اظهار"
+
+msgid "seconds"
+msgstr "ثواني"
+
+# Unit test lines.
+msgid "Test Name"
+msgstr "إسم الإختبار"
+
+msgid "Test Datatype"
+msgstr "اختبار نوع البيانات"
+
+msgid "Expected Datatype"
+msgstr "نوع البيانات المتوقّع"
+
+msgid "Result"
+msgstr "النتيجة"
+
+msgid "Undefined Test Name"
+msgstr "اسم اختبار غير محدد"
+
+msgid "File Name"
+msgstr "إسم الملف"
+
+msgid "Line Number"
+msgstr "رقم السطر"
+
+msgid "Passed"
+msgstr "نجح"
+
+msgid "Failed"
+msgstr "فشل"
+
+msgid "Boolean"
+msgstr "منطقي"
+
+msgid "Integer"
+msgstr "عدد صحيح"
+
+msgid "Float"
+msgstr "عدد تعويم"
+
+msgid "Double"
+msgstr "عدد تعويم"
+
+msgid "String"
+msgstr "سلسلة"
+
+msgid "Array"
+msgstr "مجموعة"
+
+msgid "Object"
+msgstr "فئة"
+
+msgid "Resource"
+msgstr "مَوْرد"
+
+msgid "Null"
+msgstr "لا شيء"
+
+msgid "Notes"
+msgstr "ملاحظات"
+
+# Upload lines.
+msgid "Unable to find a post variable called userfile."
+msgstr "تعذر العثور على متغيّر POST بالاسم userfile."
+
+msgid "The uploaded file exceeds the maximum allowed size in your PHP configuration file."
+msgstr "حجم الملف المرفوع أكبر من الحجم الأقصى المسموح به في ملف تهيئة PHP."
+
+msgid "The uploaded file exceeds the maximum size allowed by the submission form."
+msgstr "حجم الملف المرفوع أكبر من الحجم الأقصى المسموح به في استمارة الإرسال."
+
+msgid "The file was only partially uploaded."
+msgstr "تم رفع جزء من الملف فقط."
+
+msgid "The temporary folder is missing."
+msgstr "المجلد المؤقت مفقود."
+
+msgid "The file could not be written to disk."
+msgstr "تعذر حفظ الملف على الخادم."
+
+msgid "The file upload was stopped by extension."
+msgstr "أوقف رفع الملف بسبب نوعه."
+
+msgid "You did not select a file to upload."
+msgstr "لم تختر ملف لرفعه."
+
+msgid "The filetype you are attempting to upload is not allowed."
+msgstr "نوع الملف الذي تحاول رفعه غير مسموح."
+
+msgid "The file you are attempting to upload is larger than the permitted size."
+msgstr "الملف الذي تحاول رفعه أكبر من الحجم المسموح به."
+
+msgid "The image you are attempting to upload doesn't fit into the allowed dimensions."
+msgstr "طول أو عرض الصورة التي تحاول رفعها أكبر من الحدّ المُعيّن."
+
+msgid "A problem was encountered while attempting to move the uploaded file to the final destination."
+msgstr "حدث خطأ أثناء محاولة نقل الملف المرفوع إلى الموضع النهائي."
+
+msgid "The upload path does not appear to be valid."
+msgstr "يبدو أن مسار رفع الملفات غير صحيح."
+
+msgid "You have not specified any allowed file types."
+msgstr "لم تقم بتحديد أنواع الملفات المسموح رفعها."
+
+msgid "The file name you submitted already exists on the server."
+msgstr "اسم الملف الذي ترفعه موجود مسبقاً"
+
+msgid "The upload destination folder does not appear to be writable."
+msgstr "يبدو أن المجلد المطلوب رفع الملفات إليه لا يمكن الكتابة فيه."
