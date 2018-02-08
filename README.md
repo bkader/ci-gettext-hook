@@ -1,4 +1,4 @@
-# CI-Gettext-Hook ([Demo](http://demo.ianhub.com/ci-gettext/))
+# CI-Gettext-Hook ([Demo](http://demo.ianhub.net/codeigniter/gettext/))
 This hook enables the use of __php_gettext__ for [CodeIgniter](https://www.codeigniter.com/) framework.
 ## How to use?
 Unlike my former [CI-Gettext Library](https://github.com/bkader/ci-gettext) that requires a little bit of configuration and alteration to CodeIgniter core files, this hooks does not really alter a thing and needs a meaningless configuration.
